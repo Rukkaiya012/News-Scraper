@@ -1,7 +1,4 @@
-This project is a simple web scraper built using Python, requests, and BeautifulSoup libraries. 
-The main goal is to automatically collect the top news headlines from a public news website and save them into a .txt file. Using the requests module, the script sends a GET request to fetch the raw HTML content of the news homepage. 
-Then, BeautifulSoup parses the HTML and extracts relevant text elements such as <h2>, <h3>, or <title> tags that commonly contain news headlines.
-All the extracted headlines are stored in a clean and readable format inside a text file named headlines.txt.
+This project is a Python-based web scraper that collects the latest news headlines from a public website using the requests and BeautifulSoup libraries. The script fetches the HTML content, extracts headlines from specific tags, and saves them neatly into a .txt file for easy access and offline use.
 
 🧰 Tools & Technologies Used:
 Python
